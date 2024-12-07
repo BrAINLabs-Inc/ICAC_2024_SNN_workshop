@@ -14,7 +14,7 @@ Our workshop is divided into 3 parts (**at the moment - modify as needed**)
 
 | Session | Slides | Colab
 | --- | ---  | --- |
-| Session 1 | Tutorial 1: SNN and ANN on MNIST Dataset |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb)
+| Session 1 | Tutorial 1: SNN and ANN on MNIST Dataset |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb)
 | Session 1 | [SNN vs ANN on MNIST Dataset](add any ppts / notes to github and paste that github link here - within brackets )|   ----- 
 | Session 1 | [Tutorial 1: Modify this later() |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](add the jupyter notebook to github and add the link here)
 | Session 3 | Tutorial 2: Modify this later| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](add the jupyter notebbok link here the same way)
