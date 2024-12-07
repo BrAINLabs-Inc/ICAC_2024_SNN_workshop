@@ -1,8 +1,8 @@
 # Exploring Spiking Neural Networks
 
-This repo was created to contain material used for [ICAC 2024](https://icac.lk/) (6th International Conference on Advancements in Computing) pre-conference workshop on [Exploring Spiking Neural Networks](https://icac.lk/preconference-workshops/).
+This repository contains material used for [ICAC 2024](https://icac.lk/) (6th International Conference on Advancements in Computing) pre-conference workshop on [Exploring Spiking Neural Networks](https://icac.lk/preconference-workshops/).
 
-Our workshop is divided into 3 parts (**at the moment - modify as needed**)
+This workshop is divided into 3 parts (**at the moment - modify as needed**)
 
  1. **Session 1:** Introduction to spiking neural networks.
  2. **Session 2:** Differences between SNNs and ANNs.
