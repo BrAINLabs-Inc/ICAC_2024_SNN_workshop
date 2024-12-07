@@ -24,4 +24,5 @@ The following are great resources to get started on SNN
 
 # Resources 
 
- - [Training Spiking Neural Networks Using Lessons From Deep Learning](https://ieeexplore.ieee.org/abstract/document/10242251)
+ - [Python based Spiking Neural Networks Library](https://briansimulator.org/)
+ - [Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
