@@ -24,5 +24,5 @@ The following are great resources to get started on SNN
 
 # Resources 
 
- - [Python based Spiking Neural Networks Library](https://briansimulator.org/)
- - [Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
+ - [BRAIN: Python based Spiking Neural Networks Library](https://briansimulator.org/)
+ - [snnTorch: Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
