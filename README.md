@@ -29,3 +29,4 @@ The following are great resources to get started on SNN
 
  - [BRAIN: Python based Spiking Neural Networks Library](https://briansimulator.org/)
  - [snnTorch: Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
+ - [Neucube Py](https://github.com/KEDRI-AUT/NeuCube-Py?tab=readme-ov-file/)
