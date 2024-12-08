@@ -14,7 +14,7 @@ This workshop is divided into 3 parts
 
 | Session | Slides | Colab
 | --- | ---  | --- |
-| Session 1 | Tutorial 1: Izhikevich Neuron Model|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Izhikevich_Neuron.ipynb)|
+| Session 1 |   [Tutorial 1: Izhikevich Neuron Model](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)   |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Izhikevich_Neuron.ipynb)|
 | | Tutorial 2: LIF Neuron Model |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Leaky_Integrate_and_Fire_(LIF)_neuron_model.ipynb)|
 | Session 2 | Tutorial 1: STDP Learning Algorithm|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/STDP_unsupervised.ipynb)|
 | Session 3 | Tutorial 1: ANN Implementation with MNIST Dataset |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb)|
