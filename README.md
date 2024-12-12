@@ -12,7 +12,7 @@ This workshop is divided into 3 parts
 
 # Contents
 
-Workshop recording can be accessed using this [Google drive link](https://drive.google.com/file/d/16I4Rfyuw2CHjNAfu2K_6PrMMZbYlhmYC/view?usp=drive_link). Slides used in the workshop can be accesed using this [link](ss).  
+Workshop recording can be accessed using this [Google drive link](https://drive.google.com/file/d/16I4Rfyuw2CHjNAfu2K_6PrMMZbYlhmYC/view?usp=drive_link). Slides used in the workshop can be accesed using this [link](https://github.com/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Slides/Exploring_Spiking_Neural_Networks.pdf).  
 
 ## Hands-On Sessions
 
