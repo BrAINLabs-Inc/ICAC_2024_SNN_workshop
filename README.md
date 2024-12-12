@@ -16,7 +16,7 @@ Workshop recording can be accessed using this [Google drive link](https://drive.
 
 ## Hands-On Sessions
 
-| Session | Description | Colab
+| Session | Description | Notebook
 | --- | ---  | --- |
 | Session 1 |   [Part 1: Izhikevich Neuron Model](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)   |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Izhikevich_Neuron.ipynb)|
 | | Part 2: LIF Neuron Model |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Leaky_Integrate_and_Fire_(LIF)_neuron_model.ipynb)|
