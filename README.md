@@ -27,14 +27,23 @@ Workshop recording can be accessed using this [Google drive link](https://drive.
 **Note:** The notebooks are designed to run standalone, so they contain all the necessary  installation setup. We highly suggest to run these notebooks in Google colab.
 
 # References
-The following are great resources to get started on SNN
 
+The following are some research papers and textbooks related to SNN.
+
+## Research Papers
  - [Training Spiking Neural Networks Using Lessons From Deep Learning](https://ieeexplore.ieee.org/abstract/document/10242251)
+ 
+## Textbooks 
+ - [Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting](https://drive.google.com/file/d/1qRoJr6TRUYNFI74v8GdpAalsCrZkh2UR/view?usp=sharing)
+ - [Theoretical Neuroscience](https://drive.google.com/file/d/1DEpJKvVgZoTcjk9pDy-FNBK7AZm7ryph/view?usp=sharing)	
 
 # Resources 
+
+The following are some resources to get started on SNN
 
  - [BRAIN: Python based Spiking Neural Networks Library](https://briansimulator.org/)
  - [snnTorch: Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
  - [Neucube Py](https://github.com/KEDRI-AUT/NeuCube-Py?tab=readme-ov-file/)
  - [Izhikevich Files](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)
  - [Neural Data Science - University of Tübingen](https://www.youtube.com/playlist?list=PL05umP7R6ij3SxudmSWFL_zGh0BMrRdrx)
+ 
