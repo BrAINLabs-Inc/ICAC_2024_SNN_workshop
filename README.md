@@ -37,3 +37,4 @@ The following are great resources to get started on SNN
  - [snnTorch: Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
  - [Neucube Py](https://github.com/KEDRI-AUT/NeuCube-Py?tab=readme-ov-file/)
  - [Izhikevich Files](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)
+ - [Neural Data Science - University of Tübingen](https://www.youtube.com/playlist?list=PL05umP7R6ij3SxudmSWFL_zGh0BMrRdrx)
