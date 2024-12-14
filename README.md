@@ -8,8 +8,6 @@ This workshop is divided into 3 parts
  2. **Session 2:** Learnning in SNN.
  3. **Session 3:** SNN Applications for real-world problems.
 
-
-
 # Contents
 
 Workshop recording can be accessed using this [Google drive link](https://drive.google.com/file/d/16I4Rfyuw2CHjNAfu2K_6PrMMZbYlhmYC/view?usp=drive_link). Slides used in the workshop can be accesed using this [link](https://github.com/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Slides/Exploring_Spiking_Neural_Networks.pdf).  
@@ -46,4 +44,5 @@ The following are some resources to get started on SNN
  - [Neucube Py](https://github.com/KEDRI-AUT/NeuCube-Py?tab=readme-ov-file/)
  - [Izhikevich Files](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)
  - [Neural Data Science - University of Tübingen](https://www.youtube.com/playlist?list=PL05umP7R6ij3SxudmSWFL_zGh0BMrRdrx)
+ - [Computational Neuroscience PhD Student YouTube](https://www.youtube.com/@CharlotteFraza/videos) 
  
