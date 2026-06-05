@@ -1,48 +1,87 @@
 # Exploring Spiking Neural Networks
 
-This repository contains material used for [ICAC 2024](https://icac.lk/) (6th International Conference on Advancements in Computing) pre-conference workshop on [Exploring Spiking Neural Networks](https://icac.lk/preconference-workshops/).
+Welcome to the ICAC 2024 SNN Workshop repository! This is a hands-on introduction to **Spiking Neural Networks (SNNs)** — neural networks that mimic biological brains through discrete spike events.
 
-This workshop is divided into 3 parts 
+## 🚀 Quick Start
 
- 1. **Session 1:** Introduction to spiking neural networks (SNN).
- 2. **Session 2:** Learnning in SNN.
- 3. **Session 3:** SNN Applications for real-world problems.
+All notebooks run in **Google Colab** with zero setup. Just click and start:
 
-# Contents
+1. [Izhikevich Neuron](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Izhikevich_Neuron.ipynb) - Learn neuron dynamics
+2. [LIF Neuron Model](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/LIF_Neuron_Model.ipynb) - Simplified spiking neurons
+3. [STDP Learning](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/STDP_unsupervised.ipynb) - Unsupervised learning rules
+4. [SNN MNIST](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/SNN_implementation_of_MNIST_dataset.ipynb) - Train SNNs on digit recognition
+5. [ANN MNIST](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb) - Traditional neural network baseline
 
-Workshop recording can be accessed using this [Google drive link](https://drive.google.com/file/d/16I4Rfyuw2CHjNAfu2K_6PrMMZbYlhmYC/view?usp=drive_link). Slides used in the workshop can be accesed using this [link](https://github.com/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Slides/Exploring_Spiking_Neural_Networks.pdf).  
+## 📚 Tutorials & Documentation
 
-## Hands-On Sessions
+Learn more about each topic:
 
-| Session | Description | Notebook
-| --- | ---  | --- |
-| Session 1 |   [Part 1: Izhikevich Neuron Model](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)   |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Izhikevich_Neuron.ipynb)|
-| | Part 2: LIF Neuron Model |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/Leaky_Integrate_and_Fire_(LIF)_neuron_model.ipynb)|
-| Session 2 | STDP Learning Algorithm|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/STDP_unsupervised.ipynb)|
-| Session 3 | Part 1: SNN Implementation with MNIST Dataset     | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/SNN_implementation_of_MNIST_dataset.ipynb) | 
-|  | Part 2: ANN Implementation with MNIST Dataset |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb)|
+- **[What are SNNs?](docs/01_Introduction.md)** - Overview and why SNNs matter
+- **[Neuron Models](docs/02_Neuron_Models.md)** - Izhikevich and LIF explained
+- **[Learning Rules](docs/03_STDP_Learning.md)** - Spike-timing dependent plasticity
+- **[Training SNNs](docs/04_SNN_Training.md)** - Backprop through time & surrogate gradients
+- **[Performance Comparison](docs/05_Results.md)** - SNN vs ANN on MNIST
 
-**Note:** The notebooks are designed to run standalone, so they contain all the necessary  installation setup. We highly suggest to run these notebooks in Google colab.
+## 📊 What You'll Learn
 
-# References
+- How biological neurons inspire artificial neural networks
+- Mathematical models of spiking neurons
+- Unsupervised learning with STDP
+- Training spiking networks with backpropagation
+- Real-world applications on MNIST dataset
 
-The following are some research papers and textbooks related to SNN.
+## 🛠 Technologies Used
 
-## Research Papers
- - [Training Spiking Neural Networks Using Lessons From Deep Learning](https://ieeexplore.ieee.org/abstract/document/10242251)
- 
-## Textbooks 
- - [Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting](https://drive.google.com/file/d/1qRoJr6TRUYNFI74v8GdpAalsCrZkh2UR/view?usp=sharing)
- - [Theoretical Neuroscience](https://drive.google.com/file/d/1DEpJKvVgZoTcjk9pDy-FNBK7AZm7ryph/view?usp=sharing)	
+- **PyTorch** - Deep learning framework
+- **snnTorch** - SNN library
+- **Matplotlib** - Visualization
+- **NumPy** - Numerical computing
 
-# Resources 
+## 📖 Session Structure
 
-The following are some resources to get started on SNN
+**Session 1: Foundations**
+- Izhikevich neuron model
+- Leaky Integrate-and-Fire (LIF) neurons
+- Spike dynamics visualization
 
- - [BRAIN: Python based Spiking Neural Networks Library](https://briansimulator.org/)
- - [snnTorch: Gradient based Spiking Neural Networks Training Library](https://snntorch.readthedocs.io/)
- - [Neucube Py](https://github.com/KEDRI-AUT/NeuCube-Py?tab=readme-ov-file/)
- - [Izhikevich Files](https://www.izhikevich.org/publications/whichmod.htm#izhikevich)
- - [Neural Data Science - University of Tübingen](https://www.youtube.com/playlist?list=PL05umP7R6ij3SxudmSWFL_zGh0BMrRdrx)
- - [Computational Neuroscience PhD Student YouTube](https://www.youtube.com/@CharlotteFraza/videos) 
- 
+**Session 2: Learning**
+- Spike-Timing Dependent Plasticity (STDP)
+- Unsupervised weight adaptation
+- Temporal causality in learning
+
+**Session 3: Applications**
+- End-to-end SNN training
+- Classification on MNIST
+- Performance vs traditional ANNs
+
+## 📝 Resources
+
+- [snnTorch Documentation](https://snntorch.readthedocs.io/)
+- [BRIAN2 Simulator](https://briansimulator.org/)
+- [Izhikevich Model Details](https://www.izhikevich.org/publications/whichmod.htm)
+
+## 🎯 Key Results
+
+- **ANN Baseline**: 75.93% test accuracy on MNIST (1 epoch)
+- **SNN Training**: Successfully demonstrates surrogate gradients & BPTT
+- **Training Time**: ~15-30 min per notebook on Colab GPU
+
+## 📖 Citation
+
+```bibtex
+@workshop{BrAINLabs2024SNN,
+  title={Exploring Spiking Neural Networks},
+  author={BrAINLabs-Inc},
+  booktitle={ICAC 2024},
+  year={2024},
+  url={https://github.com/BrAINLabs-Inc/ICAC_2024_SNN_workshop}
+}
+```
+
+## 📄 License
+
+MIT License - see LICENSE file for details.
+
+---
+
+**Workshop Date**: ICAC 2024 | **Organization**: [BrAINLabs-Inc](https://github.com/BrAINLabs-Inc)
