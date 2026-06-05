@@ -1,65 +1,48 @@
 # Spike-Timing Dependent Plasticity (STDP)
 
+[Back to README](../README.md)
+
 ## Overview
 
-STDP is an unsupervised learning rule where synaptic connections strengthen or weaken based on the **relative timing** of pre- and post-synaptic spikes.
+Session 2 introduces STDP — an unsupervised learning rule where synaptic connections change based on the relative timing of pre- and post-synaptic spikes.
 
 ## The Core Principle
 
-**"Neurons that fire together wire together"** — but with timing sensitivity.
+If a presynaptic neuron fires just before a postsynaptic neuron, the connection strengthens (potentiation). If the order is reversed, the connection weakens (depression). This captures a simple causal rule: activity that predicts a downstream spike gets reinforced.
 
 ```
-If presynaptic neuron fires BEFORE postsynaptic neuron:
-  → Connection STRENGTHENS (potentiation)
+Δt = t_post - t_pre
 
-If presynaptic neuron fires AFTER postsynaptic neuron:
-  → Connection WEAKENS (depression)
-
-If firing is simultaneous or far apart:
-  → Minimal change
+Δt > 0 (pre before post) → weight increases
+Δt < 0 (post before pre) → weight decreases
 ```
 
-## Mathematical Form
+The magnitude of change decays exponentially with the time difference:
 
 ```
 ΔW ∝ exp(-|Δt| / τ_stdp)
-
-Where:
-  Δt = time difference between spikes
-  τ_stdp = learning window (typically 10-100ms)
 ```
+<img width="730" height="486" alt="image" src="https://github.com/user-attachments/assets/3657baae-35d4-484f-964e-a37046c80f3a" />
 
-## Why This Matters
 
-✓ **Biological**: Mirrors how real brains learn
-✓ **Causal**: Only strengthens when pre-activity predicts post-activity
-✓ **Local**: Depends only on local spike information (no global loss)
-✓ **Unsupervised**: Requires no labels or target signals
+## What the Notebook Demonstrates
 
-## What Happens in the Notebook
+- A small network of neurons receiving random input patterns
+- STDP modifying connection weights based on spike timing
+- Weights self-organizing without any labels or loss function
+- Visualization of weight changes as learning progresses
 
-The STDP notebook demonstrates:
+## Key Properties
 
-1. **Network Setup**: 10 neurons, 3 layers
-2. **Spike Generation**: Random input patterns
-3. **Weight Adaptation**: STDP modifies connection strengths
-4. **Visualization**: Watch weights change as spikes occur
-5. **Patterns Emerge**: Network self-organizes from random initial state
+- **Unsupervised**: No labels or target outputs required
+- **Local**: Each synapse updates based only on the two neurons it connects
+- **Causal**: Strengthens connections where pre-activity predicts post-activity
+- **Biologically grounded**: Observed in real cortical neurons
 
-## Connection to Supervised Learning
+## Connection to Session 3
 
-While STDP is unsupervised, it's foundational for understanding how SNNs learn:
-- Session 3 builds on these principles using supervised backpropagation
-- Both involve temporal dynamics and spike-timing relationships
-- STDP shows learning is possible without explicit loss functions
+STDP provides intuition for how timing matters in SNN learning. Session 3 moves to supervised training with backpropagation, but the same temporal dynamics underlie both approaches.
 
-## Key Insights
+---
 
-✓ Learning rules can be local and spike-based
-✓ Temporal causality is important
-✓ Networks self-organize through interaction
-✓ Biological realism doesn't require labels
-
-## Next Steps
-
-→ See [SNN Training](04_SNN_Training.md) to learn supervised learning with SNNs
+Previous: [Neuron Models](02_Neuron_Models.md) | Next: [Training SNNs](04_SNN_Training.md)
