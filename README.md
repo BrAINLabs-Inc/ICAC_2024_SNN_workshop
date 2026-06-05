@@ -12,6 +12,9 @@ Spiking Neural Networks (SNNs) are neural networks that communicate through disc
 
 This workshop is divided into 3 progressive sessions, from neuron fundamentals through to real-world classification tasks.
 
+<img width="1505" height="851" alt="image" src="https://github.com/user-attachments/assets/f4538d3a-cbb2-4be9-afbe-143f81fc78e2" />
+
+
 ---
 
 ## Hands-On Sessions
@@ -25,6 +28,9 @@ This workshop is divided into 3 progressive sessions, from neuron fundamentals t
 | | Part 2: ANN Implementation with MNIST Dataset | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BrAINLabs-Inc/ICAC_2024_SNN_workshop/blob/main/Notebooks/ANN_implementation_of_MNIST_dataset.ipynb) |
 
 Notebooks are designed to run standalone and include all necessary setup. Recommended to run in Google Colab.
+
+<img width="1365" height="774" alt="image" src="https://github.com/user-attachments/assets/90a5652f-5823-469f-a784-22f7e1e07c7e" />
+
 
 ---
 
