@@ -15,12 +15,18 @@ Spiking Neural Networks (SNNs) are neural networks that communicate through disc
 | Computation | All neurons fire every step | Only threshold-crossing neurons fire |
 | Hardware | GPUs, CPUs | Neuromorphic accelerators |
 
+<img width="1480" height="656" alt="image" src="https://github.com/user-attachments/assets/cf0e1527-3c21-4cc8-9a2e-da986e45a6d9" />
+
+
 ## Why SNNs Matter
 
 - **Energy Efficiency**: Sparse event-driven computation reduces power consumption on neuromorphic processors
 - **Neuromorphic Hardware**: Native support on Intel Loihi and IBM TrueNorth processors
 - **Temporal Processing**: Naturally handle time-series and event-based data
 - **Biological Plausibility**: Closer match to actual neural mechanisms
+
+<img width="826" height="553" alt="image" src="https://github.com/user-attachments/assets/f7a32445-97a7-483f-a876-8f1cb3c375ef" />
+
 
 ## Real-World Applications
 
