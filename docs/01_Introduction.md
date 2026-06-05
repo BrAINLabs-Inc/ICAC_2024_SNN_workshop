@@ -1,6 +1,8 @@
-# What are Spiking Neural Networks?
+# Introduction to Spiking Neural Networks
 
-## Overview
+[Back to README](../README.md)
+
+## What Are SNNs?
 
 Spiking Neural Networks (SNNs) are neural networks that communicate through discrete spike events, mimicking how biological brains work. Instead of continuous activation values, neurons fire binary spikes at specific moments in time.
 
@@ -8,34 +10,31 @@ Spiking Neural Networks (SNNs) are neural networks that communicate through disc
 
 | Aspect | ANN | SNN |
 |--------|-----|-----|
-| **Signal Type** | Continuous activations | Discrete spikes (binary events) |
-| **Processing** | Single feedforward pass | Temporal dynamics over timesteps |
-| **Computation** | All neurons fire every step | Only threshold-crossing neurons fire |
-| **Energy** | High power consumption | Low power (sparse events) |
-| **Hardware** | GPUs, CPUs | Neuromorphic accelerators |
+| Signal Type | Continuous activations | Discrete spikes (binary events) |
+| Processing | Single feedforward pass | Temporal dynamics over timesteps |
+| Computation | All neurons fire every step | Only threshold-crossing neurons fire |
+| Hardware | GPUs, CPUs | Neuromorphic accelerators |
 
 ## Why SNNs Matter
 
-1. **Energy Efficiency**: Only fire when needed → massive power savings on neuromorphic hardware
-2. **Neuromorphic Compatibility**: Native support on Intel Loihi, IBM TrueNorth processors
-3. **Temporal Processing**: Naturally handle time-series and event-based data
-4. **Brain-Inspired**: Closer match to biological neural computation
+- **Energy Efficiency**: Sparse event-driven computation reduces power consumption on neuromorphic processors
+- **Neuromorphic Hardware**: Native support on Intel Loihi and IBM TrueNorth processors
+- **Temporal Processing**: Naturally handle time-series and event-based data
+- **Biological Plausibility**: Closer match to actual neural mechanisms
 
 ## Real-World Applications
 
 - Event-based camera processing (DVS sensors)
-- Real-time neuromorphic chips for robotics
 - Low-power edge AI devices
 - Temporal pattern recognition
+- Neuromorphic robotics
 
-## This Workshop Covers
+## Workshop Roadmap
 
-✓ How spiking neurons work mathematically
-✓ Building SNN models in PyTorch
-✓ Training with surrogate gradients
-✓ Classification tasks (MNIST)
-✓ Comparing SNNs vs traditional ANNs
+- Session 1: Understand how spiking neurons work mathematically
+- Session 2: Learn how connections adapt through spike timing (STDP)
+- Session 3: Train SNNs on real data and compare against ANNs
 
-## Next Steps
+---
 
-→ Start with [Neuron Models](02_Neuron_Models.md) to understand the mathematics
+Next: [Neuron Models](02_Neuron_Models.md)
