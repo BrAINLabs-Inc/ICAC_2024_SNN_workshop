@@ -30,16 +30,28 @@ The notebook demonstrates how changing these parameters produces different neuro
 
 The LIF simplifies neuron dynamics while retaining the essential spiking behavior used in most modern SNNs:
 
-```
-τ_m * dV/dt = -(V - V_L) + I/g_L
-if V >= V_threshold: V = V_reset (refractory period begins)
-```
+$$
+\tau \frac{dV}{dt} = -(V(t) - V_{rest}) + R I(t)
+$$
 
-In discrete form with decay rate β:
+$$
+V(t) = V_{rest}, \text{ if } V(t) = V_{thresh}
+$$
 
-```
-V[t+1] = β * V[t] + input - reset
-```
+---
+
+The voltage $V(t)$ across the membrane changes over time according to two competing forces:
+
+* **Integration** — incoming current $I(t)$ pushes the voltage *up*
+* **Leak** — the resistance term pulls the voltage *back down* toward resting state
+
+The time constant **$\tau = RC$** tells you *how fast* this happens. A large $\tau$ means the membrane charges and leaks slowly. A small $\tau$ means it responds quickly.
+
+In discrete form with decay rate $\beta$:
+
+$$
+V[t+1] = \beta * V[t] + \text{input} - \text{reset}
+$$
 
 A decay rate of β = 0.95 (used in Session 3) means the membrane loses 5% of its charge per timestep.
 
